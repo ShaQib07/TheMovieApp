@@ -7,18 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C101B3E929010F42009D9897 /* FavoriteItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101B3E829010F42009D9897 /* FavoriteItemView.swift */; };
+		C101D6C82907BCA0004492F4 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101D6C72907BCA0004492F4 /* RealmManager.swift */; };
+		C1170DA228F92E7B005938C6 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C1170DA128F92E7B005938C6 /* SDWebImageSwiftUI */; };
+		C1170DA428F94375005938C6 /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1170DA328F94375005938C6 /* MovieDetailsView.swift */; };
+		C154E9202902722B00CC7C53 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154E91F2902722B00CC7C53 /* Extension.swift */; };
+		C1618EF928FFD39800024694 /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1618EF828FFD39800024694 /* MovieDetailViewModel.swift */; };
+		C1618EFB28FFD6C100024694 /* RecommendedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1618EFA28FFD6C100024694 /* RecommendedItemView.swift */; };
+		C1618EFE28FFF2FD00024694 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = C1618EFD28FFF2FD00024694 /* Realm */; };
+		C1618F0028FFF2FD00024694 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C1618EFF28FFF2FD00024694 /* RealmSwift */; };
+		C1618F0228FFF44900024694 /* RealmMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1618F0128FFF44900024694 /* RealmMovie.swift */; };
+		C1618F052900018F00024694 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1618F042900018F00024694 /* FavoriteView.swift */; };
+		C1723DAD2959764600871279 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1723DAC2959764600871279 /* SigninView.swift */; };
+		C1723DB029597CA400871279 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C1723DAF29597CA400871279 /* FirebaseAnalytics */; };
+		C1723DB229597CA400871279 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C1723DB129597CA400871279 /* FirebaseAuth */; };
+		C1723DB429597CA400871279 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C1723DB329597CA400871279 /* FirebaseAuthCombine-Community */; };
+		C1723DB629597CA400871279 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = C1723DB529597CA400871279 /* FirebaseCrashlytics */; };
+		C1723DBA29597EC300871279 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = C1723DB929597EC300871279 /* GoogleSignIn */; };
+		C1723DBC29597EC300871279 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C1723DBB29597EC300871279 /* GoogleSignInSwift */; };
+		C1723DC52959AEAA00871279 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1723DC42959AEAA00871279 /* GoogleService-Info.plist */; };
+		C1723DD22959C5B900871279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1723DD12959C5B900871279 /* AppDelegate.swift */; };
+		C195D07528DB1245006F65A1 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C195D07428DB1245006F65A1 /* ItemView.swift */; };
+		C1DC413028EABB1400EA48AC /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DC412F28EABB1400EA48AC /* BaseView.swift */; };
+		C1E215B028D3689600FD3FEF /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = C1E215AF28D3689600FD3FEF /* Moya */; };
+		C1E215B428D369A300FD3FEF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E215B328D369A300FD3FEF /* Movie.swift */; };
+		C1E215B628D36BF700FD3FEF /* MovieResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E215B528D36BF700FD3FEF /* MovieResults.swift */; };
+		C1E215B928D375A900FD3FEF /* MovieApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E215B828D375A900FD3FEF /* MovieApi.swift */; };
+		C1E215BD28D380AF00FD3FEF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E215BC28D380AF00FD3FEF /* NetworkManager.swift */; };
 		C1FD893D28D2DF2F00023473 /* GSK_2022_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FD893C28D2DF2F00023473 /* GSK_2022_IOSApp.swift */; };
-		C1FD893F28D2DF2F00023473 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FD893E28D2DF2F00023473 /* ContentView.swift */; };
+		C1FD893F28D2DF2F00023473 /* PopularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FD893E28D2DF2F00023473 /* PopularView.swift */; };
 		C1FD894128D2DF3000023473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FD894028D2DF3000023473 /* Assets.xcassets */; };
 		C1FD894428D2DF3000023473 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FD894328D2DF3000023473 /* Preview Assets.xcassets */; };
+		C1FD894B28D2E15000023473 /* PopularViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FD894A28D2E15000023473 /* PopularViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C101B3E829010F42009D9897 /* FavoriteItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteItemView.swift; sourceTree = "<group>"; };
+		C101D6C72907BCA0004492F4 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		C1170DA328F94375005938C6 /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		C154E91F2902722B00CC7C53 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		C1618EF828FFD39800024694 /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
+		C1618EFA28FFD6C100024694 /* RecommendedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedItemView.swift; sourceTree = "<group>"; };
+		C1618F0128FFF44900024694 /* RealmMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmMovie.swift; sourceTree = "<group>"; };
+		C1618F042900018F00024694 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		C1723DAC2959764600871279 /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		C1723DC42959AEAA00871279 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C1723DD12959C5B900871279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C195D07428DB1245006F65A1 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		C1DC412F28EABB1400EA48AC /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		C1E215B328D369A300FD3FEF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C1E215B528D36BF700FD3FEF /* MovieResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResults.swift; sourceTree = "<group>"; };
+		C1E215B828D375A900FD3FEF /* MovieApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieApi.swift; sourceTree = "<group>"; };
+		C1E215BC28D380AF00FD3FEF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		C1FD893928D2DF2F00023473 /* GSK 2022 IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GSK 2022 IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FD893C28D2DF2F00023473 /* GSK_2022_IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSK_2022_IOSApp.swift; sourceTree = "<group>"; };
-		C1FD893E28D2DF2F00023473 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1FD893E28D2DF2F00023473 /* PopularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularView.swift; sourceTree = "<group>"; };
 		C1FD894028D2DF3000023473 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1FD894328D2DF3000023473 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1FD894A28D2E15000023473 /* PopularViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +72,108 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1618F0028FFF2FD00024694 /* RealmSwift in Frameworks */,
+				C1723DB229597CA400871279 /* FirebaseAuth in Frameworks */,
+				C1618EFE28FFF2FD00024694 /* Realm in Frameworks */,
+				C1170DA228F92E7B005938C6 /* SDWebImageSwiftUI in Frameworks */,
+				C1723DB029597CA400871279 /* FirebaseAnalytics in Frameworks */,
+				C1723DBC29597EC300871279 /* GoogleSignInSwift in Frameworks */,
+				C1723DB629597CA400871279 /* FirebaseCrashlytics in Frameworks */,
+				C1723DB429597CA400871279 /* FirebaseAuthCombine-Community in Frameworks */,
+				C1E215B028D3689600FD3FEF /* Moya in Frameworks */,
+				C1723DBA29597EC300871279 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C154E91E2902721100CC7C53 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C154E91F2902722B00CC7C53 /* Extension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C1618F032900014C00024694 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				C1618F042900018F00024694 /* FavoriteView.swift */,
+				C101B3E829010F42009D9897 /* FavoriteItemView.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		C16CE2B228FEA93F0052A4A4 /* Popular */ = {
+			isa = PBXGroup;
+			children = (
+				C1FD894A28D2E15000023473 /* PopularViewModel.swift */,
+				C195D07428DB1245006F65A1 /* ItemView.swift */,
+				C1FD893E28D2DF2F00023473 /* PopularView.swift */,
+			);
+			path = Popular;
+			sourceTree = "<group>";
+		};
+		C16CE2B328FEAD3F0052A4A4 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C1170DA328F94375005938C6 /* MovieDetailsView.swift */,
+				C1618EF828FFD39800024694 /* MovieDetailViewModel.swift */,
+				C1618EFA28FFD6C100024694 /* RecommendedItemView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		C1723DAB295975F900871279 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				C1723DAC2959764600871279 /* SigninView.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		C195D07328DB11DE006F65A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1723DAB295975F900871279 /* Onboard */,
+				C1618F032900014C00024694 /* Favorite */,
+				C16CE2B328FEAD3F0052A4A4 /* Detail */,
+				C16CE2B228FEA93F0052A4A4 /* Popular */,
+				C1DC412F28EABB1400EA48AC /* BaseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1E215B128D3697100FD3FEF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C1E215B728D3759800FD3FEF /* Network */,
+				C1E215B228D3698B00FD3FEF /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C1E215B228D3698B00FD3FEF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C1E215B328D369A300FD3FEF /* Movie.swift */,
+				C1E215B528D36BF700FD3FEF /* MovieResults.swift */,
+				C1618F0128FFF44900024694 /* RealmMovie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C1E215B728D3759800FD3FEF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C1E215B828D375A900FD3FEF /* MovieApi.swift */,
+				C1E215BC28D380AF00FD3FEF /* NetworkManager.swift */,
+				C101D6C72907BCA0004492F4 /* RealmManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		C1FD893028D2DF2F00023473 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +193,14 @@
 		C1FD893B28D2DF2F00023473 /* GSK 2022 IOS */ = {
 			isa = PBXGroup;
 			children = (
+				C1723DC42959AEAA00871279 /* GoogleService-Info.plist */,
+				C154E91E2902721100CC7C53 /* Common */,
+				C195D07328DB11DE006F65A1 /* View */,
+				C1E215B128D3697100FD3FEF /* Data */,
 				C1FD893C28D2DF2F00023473 /* GSK_2022_IOSApp.swift */,
-				C1FD893E28D2DF2F00023473 /* ContentView.swift */,
 				C1FD894028D2DF3000023473 /* Assets.xcassets */,
 				C1FD894228D2DF3000023473 /* Preview Content */,
+				C1723DD12959C5B900871279 /* AppDelegate.swift */,
 			);
 			path = "GSK 2022 IOS";
 			sourceTree = "<group>";
@@ -83,6 +229,18 @@
 			dependencies = (
 			);
 			name = "GSK 2022 IOS";
+			packageProductDependencies = (
+				C1E215AF28D3689600FD3FEF /* Moya */,
+				C1170DA128F92E7B005938C6 /* SDWebImageSwiftUI */,
+				C1618EFD28FFF2FD00024694 /* Realm */,
+				C1618EFF28FFF2FD00024694 /* RealmSwift */,
+				C1723DAF29597CA400871279 /* FirebaseAnalytics */,
+				C1723DB129597CA400871279 /* FirebaseAuth */,
+				C1723DB329597CA400871279 /* FirebaseAuthCombine-Community */,
+				C1723DB529597CA400871279 /* FirebaseCrashlytics */,
+				C1723DB929597EC300871279 /* GoogleSignIn */,
+				C1723DBB29597EC300871279 /* GoogleSignInSwift */,
+			);
 			productName = "GSK 2022 IOS";
 			productReference = C1FD893928D2DF2F00023473 /* GSK 2022 IOS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +269,13 @@
 				Base,
 			);
 			mainGroup = C1FD893028D2DF2F00023473;
+			packageReferences = (
+				C1E215AE28D3689600FD3FEF /* XCRemoteSwiftPackageReference "Moya" */,
+				C1170DA028F92E7B005938C6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				C1618EFC28FFF2FD00024694 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				C1723DAE29597CA400871279 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C1723DB829597EC300871279 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = C1FD893A28D2DF2F00023473 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1FD894428D2DF3000023473 /* Preview Assets.xcassets in Resources */,
+				C1723DC52959AEAA00871279 /* GoogleService-Info.plist in Resources */,
 				C1FD894128D2DF3000023473 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +303,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1FD893F28D2DF2F00023473 /* ContentView.swift in Sources */,
+				C1FD893F28D2DF2F00023473 /* PopularView.swift in Sources */,
+				C1E215B628D36BF700FD3FEF /* MovieResults.swift in Sources */,
+				C1723DD22959C5B900871279 /* AppDelegate.swift in Sources */,
+				C1723DAD2959764600871279 /* SigninView.swift in Sources */,
+				C101B3E929010F42009D9897 /* FavoriteItemView.swift in Sources */,
+				C1618F052900018F00024694 /* FavoriteView.swift in Sources */,
+				C1FD894B28D2E15000023473 /* PopularViewModel.swift in Sources */,
+				C101D6C82907BCA0004492F4 /* RealmManager.swift in Sources */,
+				C195D07528DB1245006F65A1 /* ItemView.swift in Sources */,
+				C1170DA428F94375005938C6 /* MovieDetailsView.swift in Sources */,
+				C1E215BD28D380AF00FD3FEF /* NetworkManager.swift in Sources */,
+				C1618EF928FFD39800024694 /* MovieDetailViewModel.swift in Sources */,
 				C1FD893D28D2DF2F00023473 /* GSK_2022_IOSApp.swift in Sources */,
+				C154E9202902722B00CC7C53 /* Extension.swift in Sources */,
+				C1DC413028EABB1400EA48AC /* BaseView.swift in Sources */,
+				C1618EFB28FFD6C100024694 /* RecommendedItemView.swift in Sources */,
+				C1E215B428D369A300FD3FEF /* Movie.swift in Sources */,
+				C1618F0228FFF44900024694 /* RealmMovie.swift in Sources */,
+				C1E215B928D375A900FD3FEF /* MovieApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,11 +453,13 @@
 				DEVELOPMENT_TEAM = G227YKW72F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GSK-2022-IOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +484,13 @@
 				DEVELOPMENT_TEAM = G227YKW72F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GSK-2022-IOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +526,102 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C1170DA028F92E7B005938C6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.1;
+			};
+		};
+		C1618EFC28FFF2FD00024694 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.32.0;
+			};
+		};
+		C1723DAE29597CA400871279 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		C1723DB829597EC300871279 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		C1E215AE28D3689600FD3FEF /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C1170DA128F92E7B005938C6 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1170DA028F92E7B005938C6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		C1618EFD28FFF2FD00024694 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1618EFC28FFF2FD00024694 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		C1618EFF28FFF2FD00024694 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1618EFC28FFF2FD00024694 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		C1723DAF29597CA400871279 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1723DAE29597CA400871279 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C1723DB129597CA400871279 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1723DAE29597CA400871279 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C1723DB329597CA400871279 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1723DAE29597CA400871279 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		C1723DB529597CA400871279 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1723DAE29597CA400871279 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		C1723DB929597EC300871279 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1723DB829597EC300871279 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		C1723DBB29597EC300871279 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1723DB829597EC300871279 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		C1E215AF28D3689600FD3FEF /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1E215AE28D3689600FD3FEF /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C1FD893128D2DF2F00023473 /* Project object */;
 }
